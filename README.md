@@ -1,6 +1,6 @@
 # Guided filter for OpenCV
 
-Guided filter is an edge-preserving smoothing filter like the bilateral filter. It is straightforward to implement and has linear complexity independent of the kernel size. For more details about this filter see [Kaiming10].
+Guided filter is an edge-preserving smoothing filter like the bilateral filter. It is straightforward to implement and has linear complexity independent of the kernel size. For more details about this filter see [[Kaiming10]](http://research.microsoft.com/en-us/um/people/kahe/eccv10/).
 
 The interface consists of one simple function `guidedFilter` and a class `GuidedFilter`. If you have multiple images to filter with the same guided image then use `GuidedFilter` class to avoid extra computations on initialization stage.
 
