@@ -7,6 +7,7 @@ The interface consists of one simple function `guidedFilter` and a class `Guided
 
 ## Examples
 
+These examples are adapted from the [original MATLAB implementation](http://research.microsoft.com/en-us/um/people/kahe/eccv10/guided-filter-code-v1.rar).
 
 ### Smoothing
 
