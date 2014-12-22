@@ -26,19 +26,19 @@ eps *= 255 * 255;   // Because the intensity range of our images is [0, 255]
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
 
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+[![Cat](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat.png)
 
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.1-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.2-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.4-small.png)
+[![r=2, eps=0.1^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.1-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.1.png)
+[![r=2, eps=0.2^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.2-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.2.png)
+[![r=2, eps=0.4^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.4-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.4.png)
 
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.1-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.2-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.4-small.png)
+[![r=4, eps=0.1^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.1-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.1.png)
+[![r=4, eps=0.2^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.2-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.2.png)
+[![r=4, eps=0.4^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.4-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.4.png)
 
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.1-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.2-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.4-small.png)
+[![r=8, eps=0.1^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.1-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.1.png)
+[![r=8, eps=0.2^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.2-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.2.png)
+[![r=8, eps=0.4^2](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.4-small.png)](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.4.png)
 
 
 ### Flash/no-flash denoising
