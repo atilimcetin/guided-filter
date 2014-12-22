@@ -23,7 +23,7 @@ eps *= 255 * 255;
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
 
-### Flash
+### Flash/no-flash denoising
 
 ```c++
 cv::Mat I = cv::imread("./img_flash/cave-flash.bmp", CV_LOAD_IMAGE_COLOR);
@@ -36,6 +36,11 @@ eps *= 255 * 255;
 
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
+
+![Cave Flash](http://atilimcetin.com/guided-filter/img_flash/cave-flash.png)
+![Cave No Flash](http://atilimcetin.com/guided-filter/img_flash/cave-noflash.png)
+![Cave Denoised](http://atilimcetin.com/guided-filter/img_flash/cave-denoised.png)
+
 
 ### Feathering
 
