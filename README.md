@@ -42,8 +42,6 @@ cv::Mat q = guidedFilter(I, p, r, eps);
 [![Cave Denoised](http://atilimcetin.com/guided-filter/img_flash/cave-denoised-small.png)](http://atilimcetin.com/guided-filter/img_flash/cave-denoised.png)
 
 
-
-
 ### Feathering
 
 ```c++
@@ -57,6 +55,11 @@ eps *= 255 * 255;
 
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
+
+[![Mask](http://atilimcetin.com/guided-filter/img_feathering/toy-mask-small.png)](http://atilimcetin.com/guided-filter/img_feathering/toy-mask.png)
+[![Guidance](http://atilimcetin.com/guided-filter/img_feathering/toy-small.png)](http://atilimcetin.com/guided-filter/img_feathering/toy.png)
+[![Feathering](http://atilimcetin.com/guided-filter/img_feathering/toy-feather-small.png)](http://atilimcetin.com/guided-filter/img_feathering/toy-feather.png)
+
 
 ### Enhancement
 
