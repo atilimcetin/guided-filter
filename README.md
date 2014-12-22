@@ -2,6 +2,9 @@
 
 Guided filter is an edge-preserving smoothing filter like the bilateral filter. It is straightforward to implement and has linear complexity independent of the kernel size. For more details about this filter see [[Kaiming10]](http://research.microsoft.com/en-us/um/people/kahe/eccv10/).
 
+
+## Usage
+
 The interface consists of one simple function `guidedFilter` and a class `GuidedFilter`. If you have multiple images to filter with the same guidance image then use `GuidedFilter` class to avoid extra computations on initialization stage. The code supports single-channel and 3-channel (color) guidance images and `CV_8U`, `CV_8S`, `CV_16U`, `CV_16S`, `CV_32S`, `CV_32F` and `CV_64F` data types.
 
 
@@ -22,6 +25,21 @@ eps *= 255 * 255;   // Because the intensity range of our images is [0, 255]
 
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
+
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+
 
 ### Flash/no-flash denoising
 
