@@ -37,9 +37,9 @@ eps *= 255 * 255;
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
 
-![Cave Flash](http://atilimcetin.com/guided-filter/img_flash/cave-flash.png)
-![Cave No Flash](http://atilimcetin.com/guided-filter/img_flash/cave-noflash.png)
-![Cave Denoised](http://atilimcetin.com/guided-filter/img_flash/cave-denoised.png)
+![Cave Flash](http://atilimcetin.com/guided-filter/img_flash/cave-flash-small.png)
+![Cave No Flash](http://atilimcetin.com/guided-filter/img_flash/cave-noflash-small.png)
+![Cave Denoised](http://atilimcetin.com/guided-filter/img_flash/cave-denoised-small.png)
 
 
 ### Feathering
