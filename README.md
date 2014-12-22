@@ -28,17 +28,17 @@ cv::Mat q = guidedFilter(I, p, r, eps);
 
 ![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
 
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.1-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.2-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-2-0.4-small.png)
 
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.1-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.2-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-4-0.4-small.png)
 
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
-![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.1-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.2-small.png)
+![XXX](http://atilimcetin.com/guided-filter/img_smoothing/cat-8-0.4-small.png)
 
 
 ### Flash/no-flash denoising
