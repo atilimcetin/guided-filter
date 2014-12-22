@@ -18,7 +18,7 @@ cv::Mat p = I;
 int r = 4; // try r=2, 4, or 8
 double eps = 0.2 * 0.2; // try eps=0.1^2, 0.2^2, 0.4^2
 
-eps *= 255 * 255;
+eps *= 255 * 255;   // Because the intensity range of our images is [0, 255]
 
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
@@ -32,7 +32,7 @@ cv::Mat p = cv::imread("./img_flash/cave-noflash.bmp", CV_LOAD_IMAGE_COLOR);
 int r = 8;
 double eps = 0.02 * 0.02;
 
-eps *= 255 * 255;
+eps *= 255 * 255;   // Because the intensity range of our images is [0, 255]
 
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
@@ -51,7 +51,7 @@ cv::Mat p = cv::imread("./img_feathering/toy-mask.bmp", CV_LOAD_IMAGE_GRAYSCALE)
 int r = 60;
 double eps = 1e-6;
 
-eps *= 255 * 255;
+eps *= 255 * 255;   // Because the intensity range of our images is [0, 255]
 
 cv::Mat q = guidedFilter(I, p, r, eps);
 ```
@@ -77,6 +77,9 @@ cv::Mat q = guidedFilter(I, p, r, eps);
 cv::Mat I_enhanced = (I - q) * 5 + q;
 ```
 
+[![Tulip](http://atilimcetin.com/guided-filter/img_enhancement/tulips-small.png)](http://atilimcetin.com/guided-filter/img_enhancement/tulips.png)
+[![Smoothed](http://atilimcetin.com/guided-filter/img_enhancement/tulips-smoothed-small.png)](http://atilimcetin.com/guided-filter/img_enhancement/tulips-smoothed.png)
+[![Enhanced](http://atilimcetin.com/guided-filter/img_enhancement/tulips-enhanced-small.png)](http://atilimcetin.com/guided-filter/img_enhancement/tulips-enhanced.png)
 
 
 ## License
