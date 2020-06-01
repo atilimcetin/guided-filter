@@ -3,7 +3,7 @@
 static cv::Mat boxfilter(const cv::Mat &I, int r)
 {
     cv::Mat result;
-    cv::blur(I, result, cv::Size(r, r));
+    cv::blur(I, result, cv::Size(r, r), cv::Point(-1, -1), cv::BORDER_REPLICATE);
     return result;
 }
 
